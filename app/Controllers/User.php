@@ -8,6 +8,13 @@ class User extends BaseController
 {
     public function index()
     {
-        //
+        $data = [
+            'judul' => 'Master Data',
+            'subjudul' => 'User',
+            'menu' => 'masterdata',
+            'submenu' => 'user',
+            'page' => 'v_user'
+        ];
+        return view('v_template', $data);
     }
 }
