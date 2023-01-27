@@ -1,3 +1,79 @@
 INFO - 2023-01-26 07:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-01-26 07:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-01-26 07:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 08:10:40 --> Undefined property: App\Controllers\User::$ModelUser
+in APPPATH\Controllers\User.php on line 18.
+ 1 APPPATH\Controllers\User.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$ModelUser', 'APPPATH\\Controllers\\User.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-26 08:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 08:12:10 --> Undefined variable $kategori
+in APPPATH\Views\v_user.php on line 82.
+ 1 APPPATH\Views\v_user.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\v_user.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\v_template.php(173): view('v_user')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\User.php(26): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-26 08:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 08:12:42 --> Undefined array key "nama_kategori"
+in APPPATH\Views\v_user.php on line 96.
+ 1 APPPATH\Views\v_user.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'APPPATH\\Views\\v_user.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\v_template.php(173): view('v_user')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\User.php(26): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-26 08:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-26 08:31:42 --> [DEPRECATED] sha1(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\User.php on line 34.
+ 1 APPPATH\Controllers\User.php(34): sha1(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->insertdata()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-26 08:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-26 09:11:34 --> [DEPRECATED] sha1(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\User.php on line 49.
+ 1 APPPATH\Controllers\User.php(49): sha1(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updatedata('3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-26 09:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 09:39:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\User.php(64): CodeIgniter\Model->__call('deteledata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->deletedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
