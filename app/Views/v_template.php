@@ -16,6 +16,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="<?= base_url('template') ?>/plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="<?= base_url('template') ?>/dist/css/adminlte.min.css">
+
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="<?= base_url('template') ?>/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="<?= base_url('template') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="<?= base_url('template') ?>/plugins/chart.js/Chart.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="<?= base_url('template') ?>/dist/js/adminlte.min.js"></script>
+
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -194,14 +207,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </div>
     <!-- ./wrapper -->
 
-    <!-- REQUIRED SCRIPTS -->
-
-    <!-- jQuery -->
-    <script src="<?= base_url('template') ?>/plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap 4 -->
-    <script src="<?= base_url('template') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="<?= base_url('template') ?>/dist/js/adminlte.min.js"></script>
 </body>
 
 </html>
